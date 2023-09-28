@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"http://localhost:3000",
+		origin:"https://studynotion-ilyy.onrender.com",
 		credentials:true,
 	})
 )
